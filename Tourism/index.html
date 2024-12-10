@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel World</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav style="position: fixed;z-index: 2000;top: 0;left: 0;right: 0;background-color: aqua;">
+        <div class="logo">Travel World</div>
+        <div class="search-container" style="text-align: center;">
+            <input type="text" class="search-input" placeholder="Search destinations..." style="width: 50%;text-align: center;">
+            <button class="search-button" onclick="searchDestination()">Search</button>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Travel World</h1>
+        <p>Your ultimate guide to exploring the world!</p>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>At Travel World, we are passionate about travel and helping people discover the beauty of the world. From breathtaking beaches to majestic mountains, we provide you with a wide range of travel destinations and experiences.</p>
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section class="section" id="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="cards-container">
+            <!-- Destination Cards -->
+            <div class="card">
+                <img src="./images/Tour Eiffel & Hotel des Invalides, Paris.jpeg" alt="Paris">
+                <h3>Paris, France</h3>
+            </div>
+            <div class="card">
+                <img src="./images/download (1).jpeg" alt="Egypt">
+                <h3>Egypt</h3>
+            </div>
+            <div class="card">
+                <img src="./images/CAPTION IDEAS FOR TOKYO, THE CAPITAL OF JAPAN.jpeg" alt="Tokyo">
+                <h3>Tokyo, Japan</h3>
+            </div>
+            <div class="card">
+                <img src="./images/Maldives honeymoon aesthetic wallpaper for mobile 4K.jpeg" alt="Maldives">
+                <h3>Maldives</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Destinations Section -->
+    <section class="section" id="new-destinations">
+        <h2>New Destinations</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./images/Hello September_ Cozy Autumn Vibes in Rome.jpeg" alt="New Destination 1">
+                <h3>Rome, Italy</h3>
+                <p>Description of the destination.</p>
+                <p><strong>Best Time to Visit: </strong>2024</p>
+            </div>
+            <div class="card">
+                <img src="./images/new yourk.jpeg" alt="New Destination 2">
+                <h3>New York City, USA</h3>
+                <p>Description of the destination.</p>
+                <p><strong>Best Time to Visit: </strong>2024</p>
+            </div>
+            <div class="card">
+                <img src="./images/Pin on Holidays to Bali.jpeg" alt="New Destination 3">
+                <h3>Bali, Indonesia</h3>
+                <p>Description of the destination.</p>
+                <p><strong>Best Time to Visit: </strong>2024</p>
+            </div>
+            <div class="card">
+                <img src="./images/Sydney, Australia 🇦🇺 Travel _ Hotels _ Food _ Tips on Instagram_ _Beautiful sunset over Sydney’s opera house🇦🇺✨ Sydney is the most amazing city_ The food and the beautiful beaches are fantastic, and all that su.jpeg" alt="New Destination 4">
+                <h3>Australia</h3>
+                <p>Description of the destination.</p>
+                <p><strong>Best Time to Visit: </strong>2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="categories">
+        <h2>Categories</h2>
+        <div class="cards-container">
+            <div class="category-card">
+                <h3>Beaches</h3>
+            </div>
+            <div class="category-card">
+                <h3>Mountains</h3>
+            </div>
+            <div class="category-card">
+                <h3>City Tours</h3>
+            </div>
+            <div class="category-card">
+                <h3>Adventure</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Let Your Message Here</h2>
+        <textarea rows="4" cols="50" placeholder="Write your message here..."></textarea>
+        <br><br>
+        <button class="button" onclick="sendMessage()">Send Message</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Travel World. All rights reserved.</p>
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
